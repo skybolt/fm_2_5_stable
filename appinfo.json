@@ -1,0 +1,168 @@
+{
+    "versionLabel": "2.0.0",
+    "uuid": "0b406bd2-f768-44b7-9210-6fd321ead807",
+    "appKeys": {
+        "icon": 0,
+        "temperature": 1,
+        "staleDate": 2,
+        "status": 3,
+        "sunrise": 4,
+        "sunset": 5,
+        "conditions": 6,
+        "offset": 7,
+        "city": 8,
+        "code": 9,
+        "iconCode": 10,
+        "commState": 11,
+        "description": 12
+    },
+    "longName": "FM 2.5 stable build",
+    "versionCode": 2,
+    "capabilities": [
+        ""
+    ],
+    "shortName": "FM 2.5 stable",
+    "companyName": "the Klebeian Group",
+    "watchapp": {
+        "watchface": true
+    },
+    "resources": {
+        "media": [
+                  {
+                  "type": "font",
+                  "name": "FONT_ARIAL_BOLD_16",
+                  "file": "fonts/Arial.ttf"
+                  },
+                  {
+                  "type": "font",
+                  "name": "FONT_ARIAL_18",
+                  "file": "fonts/Arial.ttf"
+                  },
+                  {
+                  "type": "font",
+                  "name": "FONT_ARIAL_17",
+                  "file": "fonts/Arial.ttf"
+                  },
+                  {
+                  "type": "font",
+                  "name": "FONT_TAHOMA_BOLD_17",
+                  "file": "fonts/Tahoma Bold.ttf"
+                  },
+                  {
+                  "type": "font",
+                  "name": "FONT_TAHOMA_BOLD_18",
+                  "file": "fonts/Tahoma Bold.ttf"
+                  },
+                  {
+                  "type": "font",
+                  "name": "FONT_TAHOMA_BOLD_22",
+                  "file": "fonts/Tahoma Bold.ttf"
+                  },
+                  {
+                  "type": "font",
+                  "name": "FONT_TAHOMA_BOLD_27",
+                  "file": "fonts/Tahoma Bold.ttf"
+                  },
+                  {
+                  "type": "font",
+                  "name": "FONT_TAHOMA_BOLD_28",
+                  "file": "fonts/Tahoma Bold.ttf"
+                  },
+                  {
+                  "type": "png",
+                  "name": "IMAGE_10",
+                  "file": "images/10%.png"
+                  },
+                  {
+                  "type": "png",
+                  "name": "IMAGE_20",
+                  "file": "images/20%.png"
+                  },
+                  {
+                  "type": "png",
+                  "name": "IMAGE_30",
+                  "file": "images/30%.png"
+                  },
+                  {
+                  "type": "png",
+                  "name": "IMAGE_40",
+                  "file": "images/40%.png"
+                  },
+                  {
+                  "type": "png",
+                  "name": "IMAGE_50",
+                  "file": "images/50%.png"
+                  },
+                  {
+                  "type": "png",
+                  "name": "IMAGE_60",
+                  "file": "images/60%.png"
+                  },
+                  {
+                  "type": "png",
+                  "name": "IMAGE_70",
+                  "file": "images/70%.png"
+                  },
+                  {
+                  "type": "png",
+                  "name": "IMAGE_80",
+                  "file": "images/80%.png"
+                  },
+                  {
+                  "type": "png",
+                  "name": "IMAGE_90",
+                  "file": "images/90%.png"
+                  },
+                  {
+                  "type": "png",
+                  "name": "IMAGE_100",
+                  "file": "images/100%.png"
+                  },
+                  {
+                  "type": "png",
+                  "name": "IMAGE_SUN",
+                  "file": "images/sun.png"
+                  },
+                  {
+                  "type": "png",
+                  "name": "IMAGE_RAIN",
+                  "file": "images/rain.png"
+                  },
+                  {
+                  "type": "png",
+                  "name": "IMAGE_CLOUD",
+                  "file": "images/cloud.png"
+                  },
+                  {
+                  "type": "png",
+                  "name": "IMAGE_SNOW",
+                  "file": "images/snow.png"
+                  },
+                  {
+                  "type": "png",
+                  "name": "IMAGE_PCLOUDY",
+                  "file": "images/pcloudy.png"
+                  },
+                  {
+                  "type": "png",
+                  "name": "IMAGE_DATE_BORDER",
+                  "file": "images/DateBorderSquare.png"
+                  },
+                  {
+                  "type": "png",
+                  "name": "IMAGE_PCLOUDY_MOON",
+                  "file": "images/pcloudy_moon.png"
+                  },
+                  {
+                  "type": "png",
+                  "name": "IMAGE_MOON",
+                  "file": "images/moon.png"
+                  },
+                  {
+                  "type": "png",
+                  "name": "IMAGE_FOG",
+                  "file": "images/gas_cloud.png"
+                  }
+        ]
+    }
+}
