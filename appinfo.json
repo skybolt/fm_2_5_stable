@@ -162,6 +162,11 @@
                   "type": "png",
                   "name": "IMAGE_FOG",
                   "file": "images/gas_cloud.png"
+                  },
+                  {
+                  "type": "png",
+                  "name": "IMAGE_TSTORM",
+                  "file": "images/vNext thunder.png"
                   }
         ]
     }

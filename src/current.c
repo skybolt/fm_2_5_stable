@@ -5,7 +5,7 @@
 #define ICON_DEFAULT 7
 
 #define LOCATION_PKEY 2
-#define LOCATION_DEFAULT "Lynnwood"
+#define LOCATION_DEFAULT "open weather map org"
 static char *location_read_key = LOCATION_DEFAULT;
 
 //static char *iconKey = "WEATHER_KEY_NIGHT";
@@ -23,7 +23,7 @@ static char *comm_get = "GET";
 static char *comm_set = "SET"; 
 
 #define STALE_INT_PKEY 4
-#define STALE_INT_DEFAULT 1111111111
+#define STALE_INT_DEFAULT 1095429600
 static uint32_t staleInt		= STALE_INT_DEFAULT;
 static uint32_t oldStaleInt 	= STALE_INT_DEFAULT;
 static uint32_t diffInt; 
@@ -143,7 +143,9 @@ static uint32_t WEATHER_ICONS[] = {
 	RESOURCE_ID_IMAGE_SNOW,  //8
 	RESOURCE_ID_IMAGE_SNOW,  //9 is 8 + 1 or snow at night
 	RESOURCE_ID_IMAGE_FOG,  //10 
-	RESOURCE_ID_IMAGE_FOG,  //11, or 10 + 1 fog at night 
+	RESOURCE_ID_IMAGE_FOG,  //11, or 10 + 1 fog at night
+    RESOURCE_ID_IMAGE_TSTORM,
+    RESOURCE_ID_IMAGE_TSTORM, 
 };
 
 uint32_t WEATHER_ICONS_NIGHT[] = {

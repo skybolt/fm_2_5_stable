@@ -38,6 +38,7 @@ typedef enum {
   RESOURCE_ID_IMAGE_PCLOUDY_MOON,
   RESOURCE_ID_IMAGE_MOON,
   RESOURCE_ID_IMAGE_FOG,
+  RESOURCE_ID_IMAGE_TSTORM,
 
 } ResourceId;
 
@@ -69,5 +70,6 @@ static const uint32_t resource_crc_table[] = {
   1302527373,
   3385363285,
   1731746135,
+  1719857149,
 };
 

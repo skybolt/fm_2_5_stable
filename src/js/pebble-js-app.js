@@ -330,7 +330,9 @@ function iconFromWeatherIconCode(weatherIconCode) {
 function iconFromWeatherId(weatherId) {
   if (weatherId < 200) {		    // 0-199 undefined, return lines? 
 	  return 10;
-  } else if (weatherId < 600) {     // 200 series - thunderstorms, // 300 to 321 defined as rain, 400-499 not defined, 500-599 is rain
+  } else if (weatherId < 300) {     // 200 series - thunderstorms,
+      return 12;
+  } else if (weatherId < 600) {      // 300 to 321 defined as rain, 400-499 not defined, 500-599 is rain
 	  return 6;	  
   } else if (weatherId < 700) { 	// 600-699 defined as snow	
 	  return 8;
